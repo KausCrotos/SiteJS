@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans&display=swap');
+
+body {
+  all: unset;
+  font-family: "Fira Sans", sans-serif;
+  line-height: 130%;
+}
+
+img {
+  width: 100%;
+}
+
+.content {
+  display: grid;
+  grid-template-columns: minmax(320px, 1440px);
+  justify-content: center;
+  grid-template-rows: 60px 1fr 60px;
+  min-height: 100vh;
+}
